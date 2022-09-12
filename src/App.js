@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef } from "react";
+import { Route, Routes } from "react-router-dom";
+import Contact from "./components/Contact";
+import Hero from "./components/Hero";
+import Nav from "./components/Nav";
+import Projects from "./components/Projects";
 
 function App() {
+  const mainRef = useRef(null);
+  const projectRef = useRef(null);
+  const contactRef = useRef(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="font-openSans">
+      <Nav mainRef={mainRef} projectRef={projectRef} contactRef={contactRef}/>
+      <Hero mainRef={mainRef}/>
+      <Projects projectRef={projectRef}/>
+      <Contact contactRef={contactRef}/>
+
+      <Routes>
+        <Route exact path="/#" element={<Hero/>}/>
+        <Route path="/#projects" element={<Projects/>}/>
+        <Route path="/#contact" element={<Contact/>}/>
+      </Routes>
     </div>
   );
 }
