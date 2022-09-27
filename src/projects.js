@@ -5,6 +5,16 @@ const projects = [
         link: "https://jtodo-app.netlify.app/"
     },
     {
+        name: "URL Shortener",
+        img: "https://snipboard.io/HZNSU1.jpg",
+        link: "https://jaasc.github.io/url-shortener/"
+    },
+    {
+        name: "Sunnyside Landing Page",
+        img: "https://snipboard.io/inzGp0.jpg",
+        link: "https://jaasc.github.io/sunnyside-landing/"
+    },
+    {
         name: "REST Countries API",
         img: "https://camo.githubusercontent.com/80ed445aa1a84cea9304ea2a009e57ffb37e8b42934604a5a8fef208f3651f26/68747470733a2f2f736e6970626f6172642e696f2f5a58574474522e6a7067",
         link: "https://jrest-countries-api.herokuapp.com/"
