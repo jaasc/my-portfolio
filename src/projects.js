@@ -17,7 +17,22 @@ const projects = [
     {
         name: "REST Countries API",
         img: "https://camo.githubusercontent.com/80ed445aa1a84cea9304ea2a009e57ffb37e8b42934604a5a8fef208f3651f26/68747470733a2f2f736e6970626f6172642e696f2f5a58574474522e6a7067",
-        link: "https://jrest-countries-api.herokuapp.com/"
+        link: "https://countries-jaasc.vercel.app/"
+    },
+    {
+        name: "Easybank Landing Page",
+        img: "https://camo.githubusercontent.com/f56d6b2f861e830a287e05eadda5770abc649b1ddd7a97a5cb57c26c1fe2a2e8/68747470733a2f2f736e6970626f6172642e696f2f4e7a324651332e6a7067",
+        link: "https://jaasc.github.io/landing-page/"
+    },
+    {
+        name: "Bookmark Landing Page",
+        img: "https://snipboard.io/NsH2vh.jpg",
+        link: "https://jaasc.github.io/bookmark-landing/"
+    },
+    {
+        name: "Loopstudios Landing Page",
+        img: "https://snipboard.io/YNmr16.jpg",
+        link: "https://jaasc.github.io/loopstudios-landing/"
     },
     {
         name: "Rock, Paper, Scissors Game",
@@ -32,7 +47,7 @@ const projects = [
     {
         name: "Movie Watchlist",
         img: "https://snipboard.io/EpeAmv.jpg",
-        link: "https://api-movie-watchlist.herokuapp.com/"
+        link: "https://watchlist-jaasc.vercel.app/"
     },
     {
         name: "E-commerce Product Page",
@@ -43,11 +58,6 @@ const projects = [
         name: "Space Tourism",
         img: "https://camo.githubusercontent.com/231d8c4cfd030e0bd4e5c041b71ba0c55617a927b6418439ec5c2200f3e97cf3/68747470733a2f2f736e6970626f6172642e696f2f5a65307438752e6a7067",
         link: "https://jaasc.github.io/space-tourism/"
-    },
-    {
-        name: "Landing Page",
-        img: "https://camo.githubusercontent.com/f56d6b2f861e830a287e05eadda5770abc649b1ddd7a97a5cb57c26c1fe2a2e8/68747470733a2f2f736e6970626f6172642e696f2f4e7a324651332e6a7067",
-        link: "https://jaasc.github.io/landing-page/"
     },
     {
         name: "Basketball Scoreboard",
