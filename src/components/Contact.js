@@ -28,13 +28,13 @@ function Contact({ contactRef }){
             })
             .catch(err => console.log("Email sending failed!", err))
     }
-
+// min-h-screen bg-gradient-to-b from-blue-300 to-blue-100 pt-20 --first-div
     return(
         <div 
             ref={contactRef} 
-            className="min-h-screen bg-gradient-to-b from-blue-300 to-blue-100 flex flex-col items-center pt-20 pb-2"
+            className="flex flex-col items-center pb-2"
             >
-            <h1
+            {/* <h1
                 className="text-4xl pb-12 font-bold font-oswald"
                 >Contact Me</h1>
             <form 
@@ -68,7 +68,7 @@ function Contact({ contactRef }){
                     type="submit"
                     className="rounded-lg font-oswald uppercase font-bold tracking-wider bg-blue-300 p-2 hover:bg-blue-200 active:scale-95 active:bg-blue-300"
                     >Send</button>
-            </form>
+            </form> */}
             <div className="flex w-[300px] mt-auto">
                 <Social/>
             </div>

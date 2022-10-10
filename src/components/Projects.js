@@ -2,11 +2,12 @@ import React from "react";
 import projects from "../projects";
 
 function Projects({ projectRef }){
+// bg-gradient-to-t from-blue-300 to-blue-100 --first-div
     return(
-        <div ref={projectRef} className="min-h-screen bg-gradient-to-t from-blue-300 to-blue-100 text-center py-20">
+        <div ref={projectRef} className="min-h-screen text-center py-20">
             <h1
                 className="text-4xl pb-12 px-2 font-bold font-oswald tracking-wide"
-                >These are my recent projects</h1>
+                >My recent projects</h1>
             <div className="flex flex-wrap justify-center">
 
                 {

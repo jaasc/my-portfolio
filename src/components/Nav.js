@@ -8,21 +8,21 @@ function Nav({ mainRef, projectRef, contactRef }) {
           top: ref.offsetTop,
         });
       };
-
+// bg-blue-200/70 --header
     return (
-        <header className="p-4 bg-blue-200/70 fixed sticky top-0 flex justify-between items-center">
+        <header className="p-4 fixed sticky top-0 flex justify-between items-center">
             <h1 className="text-4xl font-bold font-oswald cursor-default">JAS</h1>
             <nav className="space-x-7 hid:hidden">
-                <Link 
+                {/* <Link 
                     to="/#" 
                     onClick={() => handleScroll(mainRef.current)}
                     className="text-xl cursor-pointer"
-                    >Home</Link>
-                <Link 
+                    >Home</Link> */}
+                {/* <Link 
                     to="/#projects" 
                     onClick={() => handleScroll(projectRef.current)}
                     className="text-xl cursor-pointer"
-                    >Projects</Link>
+                    >Projects</Link> */}
                 <Link 
                     to="/#contact" 
                     onClick={() => handleScroll(contactRef.current)}

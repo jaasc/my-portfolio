@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="font-openSans">
       <Nav mainRef={mainRef} projectRef={projectRef} contactRef={contactRef}/>
-      <Hero mainRef={mainRef}/>
+      {/* <Hero mainRef={mainRef}/> */}
       <Projects projectRef={projectRef}/>
       <Contact contactRef={contactRef}/>
 
