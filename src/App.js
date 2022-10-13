@@ -11,7 +11,7 @@ function App() {
   const contactRef = useRef(null);
 
   return (
-    <div className="font-openSans">
+    <div className="font-openSans scroll-smooth">
       <Nav mainRef={mainRef} projectRef={projectRef} contactRef={contactRef}/>
       {/* <Hero mainRef={mainRef}/> */}
       <Projects projectRef={projectRef}/>

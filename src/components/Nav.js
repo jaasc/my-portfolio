@@ -10,7 +10,7 @@ function Nav({ mainRef, projectRef, contactRef }) {
       };
 // bg-blue-200/70 --header
     return (
-        <header className="p-4 fixed sticky top-0 flex justify-between items-center">
+        <header className="p-4 fixed sticky top-0 flex justify-between items-center bg-gradient-to-b from-white/100 to-white/20">
             <h1 className="text-4xl font-bold font-oswald cursor-default">JAS</h1>
             <nav className="space-x-7 hid:hidden">
                 {/* <Link 
