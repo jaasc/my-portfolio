@@ -36,10 +36,10 @@ const projects = [
         github: "https://github.com/jaasc/loopstudios-landing"
     },
     {
-        name: "Easybank Landing Page",
-        img: "https://camo.githubusercontent.com/f56d6b2f861e830a287e05eadda5770abc649b1ddd7a97a5cb57c26c1fe2a2e8/68747470733a2f2f736e6970626f6172642e696f2f4e7a324651332e6a7067",
-        live: "https://jaasc.github.io/landing-page/",
-        github: "https://github.com/jaasc/landing-page"
+        name: "Blogr Landing Page",
+        img: "https://snipboard.io/BQegxs.jpg",
+        live: "https://jaasc-blogr-landing.netlify.app/",
+        github: "https://github.com/jaasc/blogr-landing"
     },
     {
         name: "Rock, Paper, Scissors Game",
