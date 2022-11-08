@@ -60,10 +60,10 @@ const projects = [
         github: "https://github.com/jaasc/watchlist"
     },
     {
-        name: "E-commerce Product Page",
-        img: "https://camo.githubusercontent.com/22d07208af8d4c9a19d95cdbe2217b859233035d097466d0bbf3fd17eda1dab9/68747470733a2f2f736e6970626f6172642e696f2f5572656f4f312e6a7067",
-        live: "https://jaasc.github.io/product-page/",
-        github: "https://github.com/jaasc/product-page"
+        name: "IP Address Tracker",
+        img: "https://snipboard.io/3WLaCn.jpg",
+        live: "https://address-tracker-jaasc.vercel.app/",
+        github: "https://github.com/jaasc/address-tracker"
     },
     {
         name: "Space Tourism",
