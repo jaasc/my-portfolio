@@ -1,11 +1,12 @@
-import { faCodepen, faGithub, faLinkedin, faSkype } from "@fortawesome/free-brands-svg-icons";
+import { faCodepen, faGithub, faSkype } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 
 function Social(){
-    const socialLinks = [{
+    const socialLinks = [
+    {
         icon: faEnvelope,
         link: 'mailto:jasmc29@gmail.com'
     }, {
@@ -17,10 +18,12 @@ function Social(){
     },{
         icon: faGithub,
         link: 'https://github.com/jaasc'
-    }, {
-        icon: faLinkedin,
-        link: 'https://github.com/jaasc'
-    }]
+    }, 
+    // {
+    //     icon: faLinkedin,
+    //     link: 'https://github.com/jaasc'
+    // }
+    ]
 
     return(
         socialLinks.map((social, ind) => 

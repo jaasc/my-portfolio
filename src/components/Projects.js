@@ -17,7 +17,7 @@ function Projects({ projectRef }){
                     projects.map(project => 
                         <div 
                             key={project.name}
-                            className="group border-2 border-black rounded-lg truncate w-[300px] h-[200px] m-4"
+                            className="group border-2 border-white rounded-lg text-[#202c37] truncate w-[300px] h-[200px] m-4"
                             >
                             <div className="h-[80%] w-full overflow-hidden relative">
                                 <div className="bg-blue-900/70 absolute w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 duration-700">

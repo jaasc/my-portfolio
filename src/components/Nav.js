@@ -10,9 +10,11 @@ function Nav({ mainRef, projectRef, contactRef }) {
       };
 // bg-blue-200/70 --header
     return (
-        <header className="p-4 fixed sticky top-0 flex justify-between items-center bg-gradient-to-b from-white/100 to-white/20">
-            <h1 className="text-4xl font-bold font-oswald cursor-default">JAS</h1>
-            <nav className="space-x-7 hid:hidden">
+        <header className="p-4 fixed sticky top-0 flex justify-between items-center bg-gradient-to-b from-[#202c37]/100 to-[#202c37]/5 z-[700]">
+            <h1 className="text-4xl font-oswald cursor-default tracking-[2px]">
+                JAS |<span className="text-3xl tracking-[1px]"> Front End Dev</span>
+            </h1>
+            <nav className="space-x-7">
                 {/* <Link 
                     to="/#" 
                     onClick={() => handleScroll(mainRef.current)}
