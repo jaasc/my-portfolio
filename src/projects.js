@@ -1,10 +1,10 @@
 const projects = [
-    {
-        name: "Todo App",
-        img: "https://camo.githubusercontent.com/879b2f9d901ccb99a299b9a2f5b582a1d8a1a3b2388ba2139b188006046d0371/68747470733a2f2f736e6970626f6172642e696f2f3064517871572e6a7067",
-        live: "https://jtodo-app.netlify.app/",
-        github: "https://github.com/jaasc/todo-app"
-    },
+    // {
+    //     name: "Todo App",
+    //     img: "https://camo.githubusercontent.com/879b2f9d901ccb99a299b9a2f5b582a1d8a1a3b2388ba2139b188006046d0371/68747470733a2f2f736e6970626f6172642e696f2f3064517871572e6a7067",
+    //     live: "https://jtodo-app.netlify.app/",
+    //     github: "https://github.com/jaasc/todo-app"
+    // },
     {
         name: "URL Shortener",
         img: "https://snipboard.io/HZNSU1.jpg",
