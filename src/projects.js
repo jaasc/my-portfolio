@@ -70,13 +70,13 @@ const projects = [
         img: "https://snipboard.io/0USMOQ.jpg",
         live: "https://multi-form-cqqm.vercel.app/",
         github: "https://github.com/jaasc/multi-form"
+    },
+    {
+        name: "Space Tourism",
+        img: "https://camo.githubusercontent.com/231d8c4cfd030e0bd4e5c041b71ba0c55617a927b6418439ec5c2200f3e97cf3/68747470733a2f2f736e6970626f6172642e696f2f5a65307438752e6a7067",
+        live: "https://jaasc.github.io/space-tourism/",
+        github: "https://github.com/jaasc/space-tourism"
     }
-    // {
-    //     name: "Space Tourism",
-    //     img: "https://camo.githubusercontent.com/231d8c4cfd030e0bd4e5c041b71ba0c55617a927b6418439ec5c2200f3e97cf3/68747470733a2f2f736e6970626f6172642e696f2f5a65307438752e6a7067",
-    //     live: "https://jaasc.github.io/space-tourism/",
-    //     github: "https://github.com/jaasc/space-tourism"
-    // }
 ]
 
 export default projects
