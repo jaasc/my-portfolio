@@ -5,13 +5,13 @@ import projects from "../projects";
 
 function Projects({ projectRef }){
     const projOption = [faCode, faWindowMaximize]
-// bg-gradient-to-t from-blue-300 to-blue-100 --first-div
+
     return(
-        <div ref={projectRef} className="min-h-screen text-center py-20">
+        <div id="about-section" ref={projectRef} className="min-h-screen text-center py-20">
             <h1
-                className="text-4xl pb-12 px-2 font-bold font-oswald tracking-wide"
-                >My recent projects</h1>
-            <div className="flex flex-wrap justify-center">
+                className="text-4xl pb-12 px-2 font-[400] font-oswald tracking-wide"
+                >Projects</h1>
+            <div className="flex flex-wrap justify-center font-[300]">
 
                 {
                     projects.map(project => 
@@ -22,8 +22,9 @@ function Projects({ projectRef }){
                             <div className="h-[80%] w-full overflow-hidden relative">
                                 <div className="bg-blue-900/70 absolute w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 duration-700">
                                     {
-                                        projOption.map(option => 
+                                        projOption.map((option, index) => 
                                             <a 
+                                                key={index}
                                                 href={option === faCode ? project.github : project.live}
                                                 target="_blank"
                                                 rel="noopener noreferrer"

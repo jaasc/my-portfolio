@@ -24,6 +24,18 @@ const projects = [
         github: "https://github.com/jaasc/countries"
     },
     {
+        name: "Multi Form Page",
+        img: "https://snipboard.io/0USMOQ.jpg",
+        live: "https://multi-form-cqqm.vercel.app/",
+        github: "https://github.com/jaasc/multi-form"
+    },
+    {
+        name: "IP Address Tracker",
+        img: "https://snipboard.io/3WLaCn.jpg",
+        live: "https://address-tracker-jaasc.vercel.app/",
+        github: "https://github.com/jaasc/address-tracker"
+    },
+    {
         name: "Bookmark Landing Page",
         img: "https://snipboard.io/NsH2vh.jpg",
         live: "https://jaasc.github.io/bookmark-landing/",
@@ -42,10 +54,10 @@ const projects = [
         github: "https://github.com/jaasc/blogr-landing"
     },
     {
-        name: "Rock, Paper, Scissors Game",
-        img: "https://camo.githubusercontent.com/46305447c8f4771778b1ce14ce211a55a120da91b30651618753ae018534004b/68747470733a2f2f736e6970626f6172642e696f2f6676724833772e6a7067",
-        live: "https://jaasc.github.io/rock-paper-scissors-game/",
-        github: "https://github.com/jaasc/rock-paper-scissors-game"
+        name: "Movie Watchlist",
+        img: "https://snipboard.io/EpeAmv.jpg",
+        live: "https://watchlist-jaasc.vercel.app/",
+        github: "https://github.com/jaasc/watchlist"
     },
     {
         name: "Quiz App",
@@ -54,22 +66,10 @@ const projects = [
         github: "https://github.com/jaasc/quiz-app"
     },
     {
-        name: "Movie Watchlist",
-        img: "https://snipboard.io/EpeAmv.jpg",
-        live: "https://watchlist-jaasc.vercel.app/",
-        github: "https://github.com/jaasc/watchlist"
-    },
-    {
-        name: "IP Address Tracker",
-        img: "https://snipboard.io/3WLaCn.jpg",
-        live: "https://address-tracker-jaasc.vercel.app/",
-        github: "https://github.com/jaasc/address-tracker"
-    },
-    {
-        name: "Multi Form Page",
-        img: "https://snipboard.io/0USMOQ.jpg",
-        live: "https://multi-form-cqqm.vercel.app/",
-        github: "https://github.com/jaasc/multi-form"
+        name: "Rock, Paper, Scissors Game",
+        img: "https://camo.githubusercontent.com/46305447c8f4771778b1ce14ce211a55a120da91b30651618753ae018534004b/68747470733a2f2f736e6970626f6172642e696f2f6676724833772e6a7067",
+        live: "https://jaasc.github.io/rock-paper-scissors-game/",
+        github: "https://github.com/jaasc/rock-paper-scissors-game"
     },
     {
         name: "Space Tourism",

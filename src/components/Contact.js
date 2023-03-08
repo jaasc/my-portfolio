@@ -2,7 +2,7 @@ import { send } from "emailjs-com";
 import React, { useState } from "react";
 import Social from "./Social";
 
-function Contact({ contactRef }){
+function Contact(){
     const serviceID = "service_45cpbmj"
     const templateID = "template_vnflrep"
     const userID = "gtScpYRQFFRUdjrUF"
@@ -28,10 +28,9 @@ function Contact({ contactRef }){
             })
             .catch(err => console.log("Email sending failed!", err))
     }
-// min-h-screen bg-gradient-to-b from-blue-300 to-blue-100 pt-20 --first-div
+
     return(
         <div 
-            ref={contactRef} 
             className="flex flex-col items-center pb-2"
             >
             {/* <h1

@@ -18,11 +18,7 @@ function Social(){
     },{
         icon: faGithub,
         link: 'https://github.com/jaasc'
-    }, 
-    // {
-    //     icon: faLinkedin,
-    //     link: 'https://github.com/jaasc'
-    // }
+    } 
     ]
 
     return(
