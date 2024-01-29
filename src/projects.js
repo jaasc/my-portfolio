@@ -19,7 +19,7 @@ const projects = [
     },
     {
         name: "REST Countries API",
-        img: "https://camo.githubusercontent.com/80ed445aa1a84cea9304ea2a009e57ffb37e8b42934604a5a8fef208f3651f26/68747470733a2f2f736e6970626f6172642e696f2f5a58574474522e6a7067",
+        img: "https://snipboard.io/ZXWDtR.jpg",
         live: "https://countries-jaasc.vercel.app/",
         github: "https://github.com/jaasc/countries"
     },
@@ -67,13 +67,13 @@ const projects = [
     },
     {
         name: "Rock, Paper, Scissors Game",
-        img: "https://camo.githubusercontent.com/46305447c8f4771778b1ce14ce211a55a120da91b30651618753ae018534004b/68747470733a2f2f736e6970626f6172642e696f2f6676724833772e6a7067",
+        img: "https://snipboard.io/fvrH3w.jpg",
         live: "https://jaasc.github.io/rock-paper-scissors-game/",
         github: "https://github.com/jaasc/rock-paper-scissors-game"
     },
     {
         name: "Space Tourism",
-        img: "https://camo.githubusercontent.com/231d8c4cfd030e0bd4e5c041b71ba0c55617a927b6418439ec5c2200f3e97cf3/68747470733a2f2f736e6970626f6172642e696f2f5a65307438752e6a7067",
+        img: "https://snipboard.io/Ze0t8u.jpg",
         live: "https://jaasc.github.io/space-tourism/",
         github: "https://github.com/jaasc/space-tourism"
     }
